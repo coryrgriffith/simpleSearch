@@ -1,0 +1,16 @@
+---
+- name: 'I open "http_google_com" '
+  uid: 6fd78cd7-b1e5-4147-95ae-74d5d46e6b29
+  parameters:
+  - name: http_google_com
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I search for "p1"
+  uid: 9ba48c4e-e061-4ae0-88b8-2a1ead402b8a
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a link to "p1" is shown in the results
+  uid: beab0128-ba0b-459e-94e0-852839ab50a5
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
