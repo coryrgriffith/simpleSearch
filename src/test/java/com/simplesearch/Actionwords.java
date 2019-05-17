@@ -16,7 +16,7 @@ public class Actionwords {
 	     driver = new ChromeDriver();
 	}
 
-    public void iOpenP1(String p1) {
+    public void iOpenHttpGoogleCom(String p1) {
     	     driver.get(p1);
     }
 
