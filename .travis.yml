@@ -11,4 +11,4 @@ script:
   - mvn package
 
 after_script:
-  - hiptest-publisher -c junit.conf -p "target/surefire-reports/TEST-com.simpleSearch.*.xml" --test-run-id=262550
+  - hiptest-publisher -c junit.conf -p "target/surefire-reports/TEST-com.simplesearch.*.xml" --test-run-id=262550
